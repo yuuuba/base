@@ -33,10 +33,13 @@ gem 'better_errors'
 gem 'binding_of_caller'
 gem 'dotenv-rails'
 
-
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails'
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'fuubar'
 end
 
 group :development do
